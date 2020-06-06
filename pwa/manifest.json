@@ -1,0 +1,19 @@
+{
+  "name": "N2H Blog",
+  "short_name": "N2H Blog",
+  "description": "PWA",
+  "icons": [{
+    "src": "icons/ic_launcher.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "icons/ic_launcher.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  blog:
+    container_name: blog
+    build: .
+    image: naing2victor/jekyll:naing2victor
+    ports:
+    - 8080:4000
+    working_dir: /site
+    volumes:
+    - .:/site

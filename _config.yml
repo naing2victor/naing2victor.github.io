@@ -1,0 +1,107 @@
+# Site settings
+title: N2H Blog
+SEOTitle: N2H Blog
+header-img: img/cover.png
+email: naing2victor@gmail.com
+description: ""
+keyword: "Naing Naing Htun, N2H, naing2victor, @Naing2Htun, @naing2htun, N2H Blog, Blog, Personal Blog, Nein "
+url: "https://naingnainghtun.tech"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true
+facebook_username:     naing2htun
+github_username:    naing2victor
+twitter_username:   naing2htun
+instagram_username:     naing2htun
+#linkedin_username:  firstname-lastname-idxxxx
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: 
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - Dockerfile
+  - docker-compose.yml
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: ["bundler","jekyll","jekyll-paginate"]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Disqus settings
+disqus_username: naing2victor
+
+# Netease settings
+netease_comment: false
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics
+# ga_track_id:            # Format: UA-xxxxxx-xx
+# ga_domain:
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "I am conqueror of my own world"
+sidebar-avatar: /img/avatar-n2h.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+# Friends
+#friends: [
+#    {
+#        title: "Su",
+#        href: "http://su.gallery/"
+#    },{
+#        title: "乱序",
+#        href: "http://mida.re/"
+#    },{
+#        title: "Sherry Wu",
+#        href: "https://xuechundesign.github.io"
+#    },{
+#        title: "尹峰以为",
+#        href: "http://ingf.github.io/"
+#    }
+#]
