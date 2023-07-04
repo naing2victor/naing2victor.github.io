@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine
+FROM ruby:3.2-alpine
 
 RUN apk add --no-cache build-base gcc bash cmake
 
