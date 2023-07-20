@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: naing2victor.github.io
+Token: 456a4508308130aea89ce4bb6d5058c6d6e0718a6b55c63fa0c8d3eba3d88902
